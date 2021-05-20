@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamGTR/Employee-Tracker.git"
+  },
+  "author": "Sam Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamGTR/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/SamGTR/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.1",
+    "mysql": "^2.17.1",
+    "promise-mysql": "^4.1.1"
+  }
+}
